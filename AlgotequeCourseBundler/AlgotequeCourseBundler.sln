@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74769A3A-E27E-4B54-AEAE-ACA80420332E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35DEB311-9FAD-47E8-8870-A3AEA3F26AEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgotequeCourseBundler.Domain", "src\AlgotequeCourseBundler.Domain\AlgotequeCourseBundler.Domain.csproj", "{FDC65789-9486-4F10-A7B1-87D397256F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgotequeCourseBundler.Application", "src\AlgotequeCourseBundler.Application\AlgotequeCourseBundler.Application.csproj", "{675C8D69-60BD-4C1B-998E-B4DD1657B152}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgotequeCourseBundler.ConsoleApp", "src\AlgotequeCourseBundler.ConsoleApp\AlgotequeCourseBundler.ConsoleApp.csproj", "{8847F886-BCBC-41EF-8921-30ECEFC53DCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F7542DB2-D82E-42E6-ADF1-2F1D93A0C156}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgotequeCourseBundler.DataAccess", "src\AlgotequeCourseBundler.DataAccess\AlgotequeCourseBundler.DataAccess.csproj", "{8D69571A-C093-424E-83EF-CFF1698EFA67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDC65789-9486-4F10-A7B1-87D397256F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC65789-9486-4F10-A7B1-87D397256F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC65789-9486-4F10-A7B1-87D397256F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC65789-9486-4F10-A7B1-87D397256F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675C8D69-60BD-4C1B-998E-B4DD1657B152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675C8D69-60BD-4C1B-998E-B4DD1657B152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675C8D69-60BD-4C1B-998E-B4DD1657B152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675C8D69-60BD-4C1B-998E-B4DD1657B152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8847F886-BCBC-41EF-8921-30ECEFC53DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8847F886-BCBC-41EF-8921-30ECEFC53DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8847F886-BCBC-41EF-8921-30ECEFC53DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8847F886-BCBC-41EF-8921-30ECEFC53DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D69571A-C093-424E-83EF-CFF1698EFA67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D69571A-C093-424E-83EF-CFF1698EFA67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D69571A-C093-424E-83EF-CFF1698EFA67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D69571A-C093-424E-83EF-CFF1698EFA67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDC65789-9486-4F10-A7B1-87D397256F60} = {74769A3A-E27E-4B54-AEAE-ACA80420332E}
+		{675C8D69-60BD-4C1B-998E-B4DD1657B152} = {74769A3A-E27E-4B54-AEAE-ACA80420332E}
+		{8847F886-BCBC-41EF-8921-30ECEFC53DCB} = {74769A3A-E27E-4B54-AEAE-ACA80420332E}
+		{8D69571A-C093-424E-83EF-CFF1698EFA67} = {74769A3A-E27E-4B54-AEAE-ACA80420332E}
+	EndGlobalSection
+EndGlobal
