@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AlgotequeCourseBundler.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--topics-path \".\\requestedTopics.json\""
+    }
+  }
+}
